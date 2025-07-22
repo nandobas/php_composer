@@ -1,0 +1,76 @@
+*.override*
+
+/web/env.php
+/web/env.test.php
+/web/info.php
+/web/logs/*
+!/web/logs/.gitkeep
+/web/ssl
+
+/vendor
+/db-data
+
+info.php
+phpinfo.php
+
+/*.sublime*
+/*.settings
+/*nbproject/*
+/.buildpath
+/.project
+
+# OS X
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+![iI]con[_a-zA-Z0-9]
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+!.gitignore
+*~
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+/tmp
+
+# Compiled locale files
+/web/locale/*/LC_MESSAGES/
+
+#PHPStorm
+.idea/
+
+#VISUAL STUDIO Code
+.vscode/
+
+#NODE_MODULES
+/node_modules/
+/node_modules/*
+node_modules
+node_modules/*
+.filebeat
+
+# PHP Cs Fixer
+.php_cs.cache
+
+jmeter.log
+
+# Grum Php
+/grumphp/
+grumphp.yml
+phpcs.xml
+
+composer.phar
+
+# PHPUnit
+*.phpunit.result.cache
+coverage-report
+
+react/src/public/dist/
+.aider*
