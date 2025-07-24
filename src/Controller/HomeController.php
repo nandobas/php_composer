@@ -8,7 +8,7 @@ class HomeController
 {
     public function index(ServerRequestInterface $request, array $args): void
     {
-        header('Content-Type: application/json');
+        //header('Content-Type: application/json');
         echo json_encode([
             'message' => 'Olá, mundo!',
             'uri' => (string) $request->getUri()

@@ -1,5 +1,5 @@
 <?php
-
+header('Content-Type: application/json');
 require_once __DIR__ . '/../vendor/autoload.php';
 
 use Nyholm\Psr7\Factory\Psr17Factory;
